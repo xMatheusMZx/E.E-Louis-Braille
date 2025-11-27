@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Usuários - Louis Braille</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<header class="topbar">
+    <div class="brand">
+        <img src="imgs/image.png" alt="Logo da Escola Louis Braille" class="logo">        
+        <h2>Gerenciar Usuários</h2>
+    </div>
+
+    <nav class="menu">
+        <a href="dashboard.html" class="btn">Voltar</a>
+        <button id="logout" class="btn danger">Sair</button>
+    </nav>
+</header>
+
+<main class="container">
+    <h3>Cadastrar Usuário</h3>
+
+    <form id="addUserForm" class="form-inline">
+        <input id="newUser" placeholder="Novo usuário" required>
+        <input id="newPass" placeholder="Senha" required>
+        <button class="btn primary">Cadastrar</button>
+    </form>
+
+    <h3 class="mt20">Usuários Cadastrados</h3>
+    <ul id="listaUsuarios" class="list"></ul>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>

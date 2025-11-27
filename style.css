@@ -1,0 +1,119 @@
+:root {
+    --azul: #0A2E79;
+    --amarelo: #E8C304;
+    --branco: #FFFFFF;
+}
+
+body {
+    margin: 0;
+    font-family: monospace;
+  /* Adiciona uma camada de branco (rgba(255, 255, 255, 0.9)) sobre a imagem para reduzir drasticamente a visibilidade */
+background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(imgs/image.png);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.logo {
+    width: 150px;
+}
+
+.logo-small {
+    width: 65px;
+}
+
+.titulo {
+    color: var(--azul);
+    font-weight: bold;
+}
+
+.btn {
+    padding: 5px 20px;
+    border: none;
+    border-radius: 150px;
+    cursor: pointer;
+    background: var(--azul);
+    color: white;
+    
+}
+
+.btn.primary {
+    background: var(--azul);
+}
+
+.btn.danger {
+    background: #b40000;
+}
+
+.topbar {
+    background: var(--azul);
+    color: white;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu .btn {
+    margin-left: 10px;
+}
+
+.container {
+    padding: 25px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+}
+
+.table th, .table td {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+.form-inline {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+input {
+    padding: 10px;
+    flex: 1;
+}
+
+.mt20 {
+    margin-top: 25px;
+}
+
+.list li {
+    background: #fff;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 6px;
+}
+
+.user-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f5f5f5;
+    padding: 8px 12px;
+    margin-bottom: 6px;
+    border-radius: 6px;
+}

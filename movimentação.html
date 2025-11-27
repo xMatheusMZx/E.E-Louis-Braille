@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Movimentações - Estoque</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="topbar">
+    <div class="brand">
+        <h2>Registro de Movimentações</h2>
+    </div>
+
+    <nav class="menu">
+        <a href="dashboard.html" class="btn">Voltar</a>
+        <button id="logout" class="btn danger">Sair</button>
+    </nav>
+</header>
+
+<main class="container">
+    <h3>Histórico de Entradas e Saídas</h3>
+
+    
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Data</th>
+                <th>Produto</th>
+                <th>Quantidade</th>
+                <th>Tipo</th>
+            </tr>
+        </thead>
+
+        <tbody id="listaMov"></tbody>
+    </table>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>

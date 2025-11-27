@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Estoque - Louis Braille</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<header class="topbar">
+    <div class="brand">
+        <img src="imgs/image.png" alt="Logo da Escola Louis Braille" class="logo">        
+        <h2>Controle de Estoque</h2>
+    </div>
+
+    <nav class="menu">
+        <a href="movimentação.html" class="btn">Movimentações</a>
+        <a href="#" class="btn" onclick="acessoAdmin('usuarios.html')">Usuários</a>
+        <a href="#" class="btn" onclick="acessoAdmin('senha.html')">Alterar Senha</a>
+        <button id="logout" class="btn danger">Sair</button>
+        </nav>
+</header>
+
+<main class="container">
+    <h3>Adicionar Produto</h3>
+
+    <form id="addForm" class="form-inline">
+        <input id="pNome" placeholder="Produto" required>
+        <input id="pQtd" type="number" placeholder="Quantidade" required>
+        <button class="btn primary">Salvar</button>
+    </form>
+
+    <h3 class="mt20">Estoque Atual</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Quantidade</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody id="listaProdutos"></tbody>
+    </table>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
