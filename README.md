@@ -1,4 +1,4 @@
-Link de acesso ao sistema: https://xmatheusmzx.github.io/Controle-de-Estoque-E.E-Louis-Braille/
+Link de acesso ao sistema: https://xmatheusmzx.github.io/E.E-Louis-Braille/
 
 🏫 1. Objetivo Geral do Projeto
 
@@ -150,6 +150,7 @@ localStorage → armazenamento dos dados
 Logotipo oficial da escola
 
 Nenhum servidor, banco de dados ou backend foi necessário.
+
 
 
 
